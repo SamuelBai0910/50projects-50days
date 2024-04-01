@@ -3,5 +3,42 @@
 }
 
 body {
-  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.article-container {
+  width: 60vw;
+  margin-top: 80px;
+}
+
+.article-container > h1 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.article-container > .author {
+  margin: 0;
+  color: rgb(139, 139, 139);
+  font-style: italic;
+}
+
+.article-container > .my-dog {
+  font-weight: 600;
+  font-size: larger;
+}
+
+#dog-image {
+  width: 100%;
+}
+
+.article-container > .content {
+  line-height: 1.5;
 }
