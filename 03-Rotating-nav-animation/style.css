@@ -3,42 +3,46 @@
 }
 
 body {
+  background-color: #333;
   height: 100vh;
   display: flex;
   justify-content: center;
-}
-
-nav {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.article-container {
-  width: 60vw;
-  margin-top: 80px;
-}
-
-.article-container > h1 {
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
-.article-container > .author {
   margin: 0;
-  color: rgb(139, 139, 139);
-  font-style: italic;
 }
 
-.article-container > .my-dog {
-  font-weight: 600;
-  font-size: larger;
+.container {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
 }
 
-#dog-image {
-  width: 100%;
+.container.show-nav {
+  transform: rotate(-20deg);
 }
 
-.article-container > .content {
-  line-height: 1.5;
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color: #ff7979;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.circle button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
 }
