@@ -3,5 +3,29 @@
 }
 
 body {
-  background-color: #000;
+  background-color: #7947de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  gap: 0;
+}
+
+.container input {
+  padding: 16px;
+  border: none;
+  font-size: 16px;
+}
+
+.container button {
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  font-size: 16px;
 }
