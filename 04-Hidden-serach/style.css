@@ -19,7 +19,18 @@ body {
 .container input {
   padding: 16px;
   border: none;
-  font-size: 16px;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+}
+
+input:focus {
+  outline: none;
+}
+
+.close {
+  position: absolute;
+  width: 0;
+  z-index: -1;
 }
 
 .container button {
@@ -27,5 +38,5 @@ body {
   border: none;
   cursor: pointer;
   background-color: white;
-  font-size: 16px;
+  font-size: 20px;
 }
