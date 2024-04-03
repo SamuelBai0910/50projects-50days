@@ -53,6 +53,14 @@ body {
   background-size: cover;
 }
 
+.split.right::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--right-bg-color);
+}
+
 .btn {
   position: absolute;
   display: flex;
