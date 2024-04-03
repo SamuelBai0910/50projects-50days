@@ -99,6 +99,13 @@ h1 {
   border-color: var(--right-btn-hover-color);
 }
 
+.split.right,
+.split.left,
+.split.right::before,
+.split.left::before {
+  transition: all var(--speed) ease-in-out;
+}
+
 .hover-left .left {
   width: var(--hover-width);
 }
