@@ -83,6 +83,16 @@ h1 {
   border-color: var(--right-btn-hover-color);
 }
 
-.hover-left {
+.hover-left .left {
   width: var(--hover-width);
+}
+.hover-left .right {
+  width: var(--other-width);
+}
+
+.hover-right .right {
+  width: var(--hover-width);
+}
+.hover-right .left {
+  width: var(--other-width);
 }
