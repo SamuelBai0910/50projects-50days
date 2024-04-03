@@ -1,3 +1,20 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.split.left {
+  background: url("ps.jpg");
+}
+
+.split.right {
+  background: url("xbox.jpg");
+}
